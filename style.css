@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-
+*{
+    margin: 0;
+    padding: 0;
+    
+}
 .open-sans-font{
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
@@ -10,8 +14,9 @@
 header {
     background: rgb(255, 248, 243);
     color: rgb(24, 24, 24);
-    width:  1910px;
+    width:  1900px;
     height: 900px;
+    padding-top: 100px;
     background-image: url(/images/developer.png),url(images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
@@ -21,6 +26,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     margin: 0 200px;
+   
 }
 nav ul {
     display: flex;
@@ -52,12 +58,13 @@ nav ul li {
     font-weight: 300;
     background: rgb(253, 110, 10);
     padding: 18px 36px;
+    border: 2px solid rgb(253, 110, 10);
 }
 .head{
     display: flex;
     justify-content: space-between;
     margin: 0 30px;
-    
+    padding-top: 160px;
     margin-left: 200px;
 }
 h4 {
@@ -74,4 +81,36 @@ h1 {
 .para {
     color: rgb(117, 117, 117);
     font-size: 18px;
+    padding-bottom: 20px;
+}
+.about {
+    background: rgb(255, 248, 243);
+    color: rgb(24, 24, 24);
+    width:  1610px;
+    height: 500px;
+    margin: 100px auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+
+}
+h3 {
+    font-size: 35px;
+}
+.para2 {
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    padding: 50px 300px;
+}
+.about-item{
+    margin-top: 0px;
+    display: inline-block;
+    padding: 20px;
+    font-size: 20px;
+    
+}
+.item-des{
+    font-size: 20px;
+    font-weight: 700;
 }
