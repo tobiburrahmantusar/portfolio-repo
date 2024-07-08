@@ -136,4 +136,46 @@ h3 {
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
+.exp-title{
+    font-size: medium;
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 25px;
+    margin-top: 20px;
+    
+}
+.resume{
+    margin-top: 200px;
+    justify-content: center;
+    text-align: center;
+   
+}
+.res-title{
+    font-size: 40px;
+}
+.res-con{
+    display: flex;
+    margin:0 100px ;
+    margin-top: 50px;
+    padding:0 100px;
+    gap: 50px;
+    text-align: left;
+}
+.exp-des {
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    margin: 20px 0;
+   
+}
+.res-col-title{
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 35px;
+    margin-bottom: 20px;
 
+}
+.exp-sub-title{
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 20px;
+}
