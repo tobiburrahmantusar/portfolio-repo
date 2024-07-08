@@ -59,6 +59,8 @@ nav ul li {
     background: rgb(253, 110, 10);
     padding: 18px 36px;
     border: 2px solid rgb(253, 110, 10);
+    border-radius: 5px;
+
 }
 .head{
     display: flex;
@@ -178,4 +180,42 @@ h3 {
     color: rgb(117, 117, 117);
     font-family: Open Sans;
     font-size: 20px;
+}
+#download{
+    text-align: center;
+    margin: 100px auto;
+}
+
+.footer{
+    
+    padding: 200px;
+    display: flex;
+    gap: 100px;
+    font-family: Open Sans;
+    background: rgb(255, 248, 243);
+    border: 2px solid rgb(255, 248, 243);
+}
+footer input[type="text"]{
+    height: 65px;
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 2px solid rgb(255, 248, 243);
+   
+}
+footer input[type="email"]{
+    height: 65px;
+    width: 300px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 2px solid rgb(255, 248, 243);
+  
+}
+footer textarea {
+    height: 100px;
+    width: 300px;
+    border-radius: 5px;
+    border: 2px solid rgb(255, 248, 243);
+    margin-bottom: 20px;
 }
